@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type"content="text/html; charset=UTF-8">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		<!--
+		function doAction(){
+			var id = $('#list1').val();
+			$('#message').load('getdata.php',{id:id});
+		}
+		//-->
+		</script>
+	</head>
+	<body>
+		<H1>TEST.</H1>
+		<div class="msg" id="message">テキストをここに表示します。</div>
+		<select id="list1" onchange="doAction();">
+			<option value="0">-</option>
+			<option value="1">１番目</option>
+			<option value="2">２番目</option>
+			<option value="3">３番目</option>
+		</select>
+	</body>
+</html>
+
